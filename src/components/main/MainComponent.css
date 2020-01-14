@@ -1,8 +1,10 @@
 section {
-  height: 600px;
+  height: 100%;
+  min-height: 625px;
   background: #bdd5cb;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  position: relative;
 }
 
 section::after {
@@ -17,4 +19,21 @@ section::after {
   right: 0;
   position: absolute;
   z-index: -1;
+}
+
+
+.main-text {
+  bottom: 225px;
+  position: absolute;
+  color: #5a967d;
+}
+
+h1 {
+  font-weight: 300;
+  margin-left: 30px;
+}
+
+button {
+  margin-left: 30px;
+  border-radius: 0 !important;
 }
