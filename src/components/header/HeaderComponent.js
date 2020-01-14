@@ -48,8 +48,8 @@ class HeaderComponent extends Component {
                                     </li>
                                     <li
                                         className="buttonsList"
-                                        onClick={ () => this.scrollTo('homeComponent')}
-                                        id="homeComponentButton"
+                                        onClick={ () => this.scrollTo('root')}
+                                        id="root"
                                     >
                                         Home
                                     </li>
