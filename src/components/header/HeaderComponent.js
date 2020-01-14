@@ -12,7 +12,7 @@ class HeaderComponent extends Component {
     }
 
     componentDidMount() {
-        HeaderComponent.setActiveMenu('root');
+        // HeaderComponent.setActiveMenu('root');
     }
 
     static setActiveMenu(active) {
@@ -35,7 +35,7 @@ class HeaderComponent extends Component {
                     <div id="headerWrapper">
                         <div id="headerComponent">
                             <div className="col-xs-3">
-                                <img src="./consensBrand.png" id="consensBrand" alt="ConSenS" onClick={ () => this.scrollTo('root')}/>
+                                <img src="./logo.jpg" id="consensBrand" alt="ConSenS" onClick={ () => this.scrollTo('root')}/>
                             </div>
                             <div className="col-xs-9">
                                 <ul id="headerDesktopMenu" className="hidden-xs hidden-sm hidden-md">
@@ -48,10 +48,17 @@ class HeaderComponent extends Component {
                                     </li>
                                     <li
                                         className="buttonsList"
+                                        onClick={ () => this.scrollTo('contactComponent')}
+                                        id="contactComponentButton"
+                                    >
+                                        Quem somos
+                                    </li>
+                                    <li
+                                        className="buttonsList"
                                         onClick={ () => this.scrollTo('root')}
                                         id="root"
                                     >
-                                        Home
+                                        Início
                                     </li>
                                 </ul>
                             </div>

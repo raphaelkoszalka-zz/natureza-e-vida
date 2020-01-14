@@ -1,0 +1,20 @@
+section {
+  height: 600px;
+  background: #bdd5cb;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0 100%);
+}
+
+section::after {
+  content: "";
+  background-image: url('./main.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.30;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
