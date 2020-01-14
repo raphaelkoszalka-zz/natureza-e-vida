@@ -1,0 +1,62 @@
+header {
+    width: 99.5%;
+}
+#headerBackground {
+    width: inherit;
+    background: #FFF;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 5px 5px rgba(255,255,255, 0.4),
+    10px 10px rgba(255,255,255, 0.3)
+}
+#headerWrapper {
+    width: 75%;
+    margin: 0 auto;
+    z-index: 1000;
+}
+#headerComponent {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -37.5%;
+    width: inherit;
+    height: 70px;
+    background-color: #FFF;
+}
+#consensBrand {
+    max-height: 50px;
+    margin-top: 10px;
+}
+#consensBrand:hover {
+    cursor: pointer;
+}
+
+#headerDesktopMenu {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+}
+#headerDesktopMenu li {
+    display: inline-block;
+    float: right;
+    color: #343434;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+#headerDesktopMenu li:hover {
+    cursor: pointer;
+    background: #0F55B4;
+}
+#contactComponentButton {
+    background: #062248;
+}
+.activeButton {
+    background: #0F55B4;
+    color: #FFF;
+}
