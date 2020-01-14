@@ -12,7 +12,7 @@ section::after {
   background-image: url('./main.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.30;
+  opacity: 0.50;
   top: 0;
   left: 0;
   bottom: 0;

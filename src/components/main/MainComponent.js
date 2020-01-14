@@ -6,8 +6,7 @@ class MainComponent extends Component {
 
     render() {
         return (
-          <section>
-            <HeaderComponent />
+          <section id="main-component">
             <div class="container main-text">
               <div class="col-xs-12 col-md-6">
                 <h1>
