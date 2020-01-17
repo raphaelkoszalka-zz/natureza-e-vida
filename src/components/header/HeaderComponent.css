@@ -7,11 +7,13 @@ header {
     position: fixed;
     top: 0;
     z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
 }
 #headerWrapper {
     width: 95%;
     margin: 0 auto;
     z-index: 1000;
+    background: rgba(0, 0, 0, 0.5);
 }
 #headerComponent {
     position: fixed;
@@ -34,7 +36,7 @@ header {
 #headerDesktopMenu li {
     display: inline-block;
     float: right;
-    color: #3e6957;
+    color: #FFF;
     text-align: center;
     padding: 15px;
     font-family: 'Open Sans', sans-serif;
@@ -46,4 +48,8 @@ header {
     cursor: pointer;
     background: #5a967d;
     color: #FFF;
+}
+.activeButton {
+  background: #fff !important;
+  color: #5a967d !important;
 }

@@ -5,3 +5,7 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
 }
+
+.contact-button {
+  margin-left: 0px;
+}

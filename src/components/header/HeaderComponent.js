@@ -41,7 +41,7 @@ class HeaderComponent extends Component {
                                 <ul id="headerDesktopMenu" className="hidden-xs hidden-sm hidden-md">
                                     <li
                                         className="buttonsList"
-                                        onClick={ () => this.scrollTo('contactComponent')}
+                                        onClick={ () => this.scrollTo('contactComponent') }
                                         id="contactComponentButton"
                                     >
                                         Contato
@@ -54,7 +54,7 @@ class HeaderComponent extends Component {
                                         Quem somos
                                     </li>
                                     <li
-                                        className="buttonsList"
+                                        className="buttonsList activeButton"
                                         onClick={ () => this.scrollTo('root')}
                                         id="root"
                                     >
