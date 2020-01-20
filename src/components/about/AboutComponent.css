@@ -1,5 +1,5 @@
 #about-component {
-  min-height: 625px;
+  height: 100%;
   background: #E1F5C4;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
