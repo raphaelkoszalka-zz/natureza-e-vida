@@ -49,7 +49,7 @@ header {
     background: #5a967d;
     color: #FFF;
 }
-.activeButton {
+.active {
   background: #fff !important;
   color: #5a967d !important;
 }
