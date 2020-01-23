@@ -1,19 +1,22 @@
 import './MainComponent.css';
 import React, { Component } from 'react';
-import HeaderComponent from '../header/HeaderComponent';
+
+// Nosso trabalho é trazer a vida da Natureza para você!
 
 class MainComponent extends Component {
 
     render() {
         return (
           <section id="main-component">
-            <div class="container main-text">
-              <div class="col-xs-12 col-md-6">
-                <h1>
-                  Vivamus <strong>efficitur</strong> justo lectus, <br />
-                  ac luctus <strong>risus</strong> suscipit a.
-                </h1>
-                <button class="btn btn-lg">Venha nos visitar!</button>
+            <div className="video-background" id="mainSlider">
+              <div className="video-foreground" id="aspectRatio">
+                  <iframe
+                    title="Natureza e Vida"
+                    id="videoFrame"
+                    src="https://www.youtube.com/embed/bfi3iipTQo0?controls=0&showinfo=0&rel=0&autoplay=1&mute=1"
+                    frameBorder="0"
+                    allowFullScreen
+                  ></iframe>
               </div>
             </div>
           </section>

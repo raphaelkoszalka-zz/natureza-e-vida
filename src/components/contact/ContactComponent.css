@@ -1,7 +1,11 @@
 #contact-component {
-  min-height: 625px;
+  height: 100%;
   background: #FFF;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
+}
+
+.contact-button {
+  margin-left: 0px;
 }

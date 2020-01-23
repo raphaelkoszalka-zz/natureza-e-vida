@@ -1,7 +1,36 @@
 #about-component {
-  min-height: 625px;
-  background: #bdd5cb;
+  height: 100%;
+  background: #E1F5C4;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
+}
+
+
+h2 {
+  margin-top: 90px;
+}
+
+p {
+  line-height: 2em;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+button {
+  width: 100%;
+  margin-left: -10px;
+  margin-top: -75px;
+  border: 1px solid #333 !important;
+}
+
+.padding-top {
+  margin-top: 90px;
+}
+
+.white-bkg {
+  background: white;
+  height: 120px;
+  max-width: 120px;
+  border-right: 10px solid #E1F5C4;
 }

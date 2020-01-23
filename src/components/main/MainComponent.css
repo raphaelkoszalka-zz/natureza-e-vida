@@ -1,31 +1,24 @@
 section {
-  height: 100%;
-  min-height: 625px;
+  height: 100% !important;
   background: #bdd5cb;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   position: relative;
 }
 
-section::after {
-  content: "";
-  background-image: url('./main.jpg');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.50;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
+#main-component {
+  height:  100% !important;
 }
-
 
 .main-text {
   bottom: 225px;
   position: absolute;
   color: #5a967d;
+}
+
+.leaf {
+  max-height: 350px;
+  opacity: 0.8;
 }
 
 h1 {
@@ -36,4 +29,60 @@ h1 {
 button {
   margin-left: 30px;
   border-radius: 0 !important;
+}
+
+
+.video-background {
+    top: 0;
+    left: 0;
+    z-index: -99;
+    overflow: hidden;
+    max-height: 966px;
+}
+
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 870px;
+    background-color: transparent !important;
+    overflow: hidden;
+}
+
+#videoOverflow {
+    z-index: 100000 !important;
+    width: 2000px;
+    height: 695px;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+}
+
+@media (max-width: 720px) {
+    .video-foreground {
+        z-index: 1 !important;
+    }
+}
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground {
+        height: 850px;
+        top: -10%;
+        z-index: -2;
+    }
+}
+@media (min-aspect-ratio: 21/9) {
+    .video-foreground {
+        height: 912.5px;
+        z-index: -2;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground {
+        width: 300%;
+        left: -625px;
+        z-index: -2;
+    }
 }
