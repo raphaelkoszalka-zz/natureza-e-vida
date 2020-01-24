@@ -6,38 +6,40 @@ class ContactComponent extends Component {
 
     render() {
         return (
-          <div id="contact-component">
-            <div className="col-md-6 App">
-              <MapComponent />
+            <div id="contact-component">
+                <div className="col-md-6 App">
+                    <MapComponent />
+                </div>
+                <div className="col-md-6">
+                    <h1 className="padding-top">
+                        Entre em <strong>contato</strong>:
+                    </h1>
+                    <div className="clearfix"></div>
+                    <br />
+                    <form>
+                        <div className="form-group">
+                            <input type="email" className="form-control" id="email" placeholder="Email" />
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" id="subject" placeholder="Assunto" />
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" id="name" placeholder="Nome" />
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp" />
+                        </div>
+                        <div className="form-group">
+                            <input type="text" className="form-control" id="message" placeholder="Mensagem" />
+                        </div>
+                    </form>
+                    <div className="clearfix"></div>
+                    <br />
+                    <div className="text-right">
+                        <button type="submit" className="btn btn-lg btn-default btn-about">Enviar</button>
+                    </div>
+                </div>
             </div>
-            <div className="col-md-6">
-              <h1 className="padding-top">
-                Entre em <strong>contato</strong>:
-              </h1>
-              <form className="padding-top">
-                <div className="form-group">
-                  <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Email" />
-                </div>
-                <div className="form-group">
-                  <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Assunto" />
-                </div>
-                <div className="form-group">
-                  <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Nome" />
-                </div>
-                <div className="form-group">
-                  <input type="text" className="form-control" id="exampleInputPassword1" placeholder="WhatsApp" />
-                </div>
-                <div className="form-group">
-                  <input type="text" className="form-control" id="exampleInputPassword2" placeholder="Mensagem" />
-                </div>
-              </form>
-              <div className="clearfix"></div>
-              <br />
-              <br />
-              <br />
-              <button type="submit" className="btn btn-default contact-button">Enviar</button>
-            </div>
-          </div>
         );
     }
 

@@ -1,6 +1,8 @@
 #contact-component {
   height: 100%;
-  background: #FFF;
+  background: #efefbb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #efefbb, #d4d3dd); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #efefbb, #d4d3dd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
