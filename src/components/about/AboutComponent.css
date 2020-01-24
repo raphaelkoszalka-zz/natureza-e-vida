@@ -1,31 +1,11 @@
 #about-component {
   height: 100%;
-  background: #E1F5C4;
+  background: #abbaab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
-}
-
-
-h2 {
-  margin-top: 90px;
-}
-
-p {
-  line-height: 2em;
-  padding-right: 25px;
-  padding-left: 25px;
-}
-
-button {
-  width: 100%;
-  margin-left: -10px;
-  margin-top: -75px;
-  border: 1px solid #333 !important;
-}
-
-.padding-top {
-  margin-top: 90px;
 }
 
 .white-bkg {
@@ -34,3 +14,9 @@ button {
   max-width: 120px;
   border-right: 10px solid #E1F5C4;
 }
+
+.btn-about {
+  border: 1px solid #efefef !important;
+  background: #99a799 !important;
+  color: white !important;
+ }
