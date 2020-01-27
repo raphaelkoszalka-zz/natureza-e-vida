@@ -1,47 +1,32 @@
-export const photos = [
-    {
-        src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-        width: 4,
-        height: 3
-    },
-    {
-        src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-        width: 1,
-        height: 1
-    },
-    {
-        src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-        width: 3,
-        height: 4
-    },
-    {
-        src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-        width: 3,
-        height: 4
-    },
-    {
-        src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-        width: 3,
-        height: 4
-    },
-    {
-        src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-        width: 4,
-        height: 3
-    },
-    {
-        src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-        width: 3,
-        height: 4
-    },
-    {
-        src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-        width: 4,
-        height: 3
-    },
-    {
-        src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-        width: 4,
-        height: 3
-    }
+export const Photos = [
+    { src: "./01.jpeg", title: 4, description: 3 },
+    { src: "./02.jpeg", title: 1, description: 1 },
+    { src: "./03.jpeg", title: 3, description: 4 },
+    { src: "./04.jpeg", title: 3, description: 4 },
+    { src: "./05.jpeg", title: 3, height: 4 },
+    { src: "./07.jpeg", title: 3, height: 4 },
+    { src: "./08.jpeg", title: 4, height: 3 },
+    { src: "./09.jpeg", title: 4, height: 3 },
+    { src: "./10.jpeg", title: 4, height: 3 },
+    { src: "./11.jpeg", title: 3, height: 4 }
+    // { src: "./12.jpeg", width: 4, height: 3 },
+    // { src: "./13.jpeg", width: 4, height: 3 },
+    // { src: "./14.jpeg", width: 4, height: 3 },
+    // { src: "./15.jpeg", width: 3, height: 4 },
+    // { src: "./16.jpeg", width: 4, height: 3 },
+    // { src: "./17.jpeg", width: 4, height: 3 },
+    // { src: "./18.jpeg", width: 4, height: 3 },
+    // { src: "./19.jpeg", width: 3, height: 4 },
+    // { src: "./20.jpeg", width: 4, height: 3 },
+    // { src: "./21.jpeg", width: 4, height: 3 },
+    // { src: "./22.jpeg", width: 4, height: 3 },
+    // { src: "./23.jpeg", width: 3, height: 4 },
+    // { src: "./24.jpeg", width: 4, height: 3 },
+    // { src: "./25.jpeg", width: 4, height: 3 },
+    // { src: "./26.jpeg", width: 3, height: 4 },
+    // { src: "./27.jpeg", width: 4, height: 3 },
+    // { src: "./28.jpeg", width: 3, height: 4 },
+    // { src: "./29.jpeg", width: 4, height: 3 },
+    // { src: "./30.jpeg", width: 3, height: 4 },
+    // { src: "./31.jpeg", width: 4, height: 3 }
 ];

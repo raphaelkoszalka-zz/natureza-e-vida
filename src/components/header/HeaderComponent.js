@@ -49,7 +49,7 @@ class HeaderComponent extends Component {
                                     </NavLink>
                                     <NavLink to="home" activeClassName="active">
                                         <li
-                                            className="buttonsList active"
+                                            className="buttonsList"
                                             id="root"
                                         >
                                             Início

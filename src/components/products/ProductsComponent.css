@@ -1,11 +1,12 @@
-#about-component {
+#products-component {
     height: 100%;
-    background: #abbaab; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     z-index: -10;
+    overflow-y: auto;
 }
 
 .white-bkg {
@@ -17,4 +18,14 @@
 
 .btn-about {
     border: 1px solid #efefef !important;
+}
+
+#products-component h1 {
+    font-size: 4em;
+    color:white;
+}
+
+#products-component h3 {
+    color: white;
+    font-size: 2em;
 }
