@@ -15,6 +15,13 @@ class ProductsComponent extends Component {
                                 </h1>
                                 <h3>Nosso trabalho é trazer a <strong>vida da Natureza para você!</strong></h3>
                                 <GalleryComponent />
+                                <div className="clearfix" />
+                                <div className="text-center">
+                                    <br />
+                                    <button className="btn btn-lg btn-products">Entre em Contato</button>
+                                    <div className="clearfix" />
+                                    <br />
+                                </div>
                             </div>
                         </div>
                     </div>

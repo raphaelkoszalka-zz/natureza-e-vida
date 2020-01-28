@@ -1,26 +1,28 @@
 #about-component {
-  height: 100%;
-  background: #abbaab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #abbaab, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #abbaab, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100%;
+  background: #DCE35B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #45B649, #45B649);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #45B649, #45B649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   z-index: -10;
+  color: white;
 }
 
-.white-bkg {
-  background: white;
-  height: 120px;
-  max-width: 120px;
-  border-right: 10px solid #E1F5C4;
+#about-component p {
+  font-size: 1.3em;
 }
 
 .btn-about {
   border: 1px solid #efefef !important;
-  background: #99a799 !important;
+  background: #296d2b !important;
   color: white !important;
- }
+}
 
 #about-component h1 {
   font-size: 5em;
+}
+
+#about-component hr {
+  margin-left: -15px;
 }

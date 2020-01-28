@@ -32,7 +32,6 @@ class AboutComponent extends Component {
                                 </h2>
                                 <h2><strong>Nossa linha de produtos:</strong></h2>
                                 <div className="col-md-6">
-
                                     <ul>
                                         <li><h4>Biscoitos</h4></li>
                                         <li><h4>Cereais</h4></li>
@@ -52,6 +51,13 @@ class AboutComponent extends Component {
                                         <li><h4>Sucos Naturais</h4></li>
                                         <li><h4>Suplementos</h4></li>
                                     </ul>
+                                </div>
+                                <div className="col-md-12">
+                                    <div className="clearfix" />
+                                    <h2 className="text-center">
+                                        <button className="btn btn-lg btn-about">Conheça nossa linha de produtos</button>
+                                    </h2>
+                                    <hr/>
                                 </div>
                             </div>
                         </div>
