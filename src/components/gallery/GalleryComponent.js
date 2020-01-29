@@ -1,11 +1,11 @@
 import './GalleryComponent.css';
 import React, { Component } from 'react';
-import { Photos } from "./Photos";
+import { Products } from "../products/Products";
 
 class GalleryComponent extends Component {
 
     render() {
-        const photos = Photos.map(function(photo, index) {
+        const photos = Products.map(function(photo, index) {
 
             const id = index;
             const style = {
