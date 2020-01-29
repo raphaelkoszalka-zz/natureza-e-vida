@@ -13,7 +13,7 @@ class MainComponent extends Component {
                   <iframe
                     title="Natureza e Vida"
                     id="videoFrame"
-                    src="https://www.youtube.com/embed/bfi3iipTQo0?controls=0&start=3&end=25&loop=1&showinfo=0&rel=0&autoplay=1&mute=1"
+                    src="https://www.youtube.com/embed/bfi3iipTQo0?controls=0&start=3&end=25&loop=50&showinfo=0&rel=0&autoplay=1&mute=1"
                     frameBorder="0"
                     allowFullScreen
                   ></iframe>

@@ -31,14 +31,6 @@ class HeaderComponent extends Component {
                                             Contato
                                         </li>
                                     </NavLink>
-                                    <NavLink to="sobre-nos"  activeClassName="active">
-                                        <li
-                                            className="buttonsList"
-                                            id="aboutComponentButton"
-                                        >
-                                            Quem somos
-                                        </li>
-                                    </NavLink>
                                     <NavLink to="produtos"  activeClassName="active">
                                         <li
                                             className="buttonsList"
@@ -47,9 +39,17 @@ class HeaderComponent extends Component {
                                             Produtos
                                         </li>
                                     </NavLink>
+                                    <NavLink to="sobre-nos"  activeClassName="active">
+                                        <li
+                                            className="buttonsList"
+                                            id="aboutComponentButton"
+                                        >
+                                            A Natureza e Vida
+                                        </li>
+                                    </NavLink>
                                     <NavLink to="home" activeClassName="active">
                                         <li
-                                            className="buttonsList active"
+                                            className="buttonsList"
                                             id="root"
                                         >
                                             Início

@@ -39,7 +39,7 @@ header {
     color: #FFF;
     text-align: center;
     padding: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 500;
     margin-right: 5px;
     text-transform: uppercase;
@@ -50,6 +50,8 @@ header {
     color: #FFF;
 }
 .active {
-  background: #fff !important;
-  color: #5a967d !important;
+    background: #fff !important;
+    color: #5a967d !important;
+    width: 100px;
+    height: 90px;
 }

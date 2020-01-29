@@ -1,10 +1,11 @@
 import './ProductsComponent.css';
 import React, { Component } from 'react';
+import GalleryComponent from "../gallery/GalleryComponent";
 
 class ProductsComponent extends Component {
     render() {
         return (
-            <div id="about-component">
+            <div id="products-component">
                 <div className="container">
                     <div className="col-xs-12">
                         <div className="container">
@@ -12,35 +13,17 @@ class ProductsComponent extends Component {
                                 <h1 className="padding-top">
                                     <strong>Nossa linha de produtos</strong>
                                 </h1>
-                                <h3>Nosso trabalho é trazer a vida da Natureza para você!</h3>
-                                <p>
+                                <h3>Nosso trabalho é trazer a <strong>vida da Natureza para você!</strong></h3>
+                                <div id="gallery-wrapper">
+                                    <GalleryComponent />
+                                </div>
+                                <div className="clearfix" />
+                                <div className="text-center">
                                     <br />
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Ut pharetra, sem nec blandit congue, mauris nulla scelerisque
-                                    ligula, eget rutrum ante eros in sem.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                    Etiam tincidunt orci quis mauris scelerisque sodales.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Ut pharetra, sem nec blandit congue, mauris nulla scelerisque
-                                    ligula, eget rutrum ante eros in sem.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                    Etiam tincidunt orci quis mauris scelerisque sodales.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Ut pharetra, sem nec blandit congue, mauris nulla scelerisque
-                                    ligula, eget rutrum ante eros in sem.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                    Etiam tincidunt orci quis mauris scelerisque sodales.
-                                    Mauris consequat ultricies nunc, non condimentum mauris malesuada eu.
-                                </p>
-                                <h2 className="text-center">
-                                    <button className="btn btn-lg btn-about">Venha nos <strong>visitar</strong>!</button>
-                                </h2>
+                                    <button className="btn btn-lg btn-products">Entre em Contato</button>
+                                    <div className="clearfix" />
+                                    <br />
+                                </div>
                             </div>
                         </div>
                     </div>
