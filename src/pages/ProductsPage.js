@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProductsComponent from "../components/products/ProductsComponent";
 
-class ProducsPage extends Component {
+class ProductsPage extends Component {
 
     render() {
         return (
@@ -12,4 +12,4 @@ class ProducsPage extends Component {
     }
 }
 
-export default ProducsPage;
+export default ProductsPage;

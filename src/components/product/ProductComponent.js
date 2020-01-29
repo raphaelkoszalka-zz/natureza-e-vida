@@ -2,7 +2,7 @@ import './ProductsComponent.css';
 import React, { Component } from 'react';
 import GalleryComponent from "../gallery/GalleryComponent";
 
-class ProductsComponent extends Component {
+class ProductComponent extends Component {
     render() {
         return (
             <div id="products-component">
@@ -28,9 +28,12 @@ class ProductsComponent extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="lightbox">
+
+                </div>
             </div>
         );
     }
 }
 
-export default ProductsComponent;
+export default ProductComponent;

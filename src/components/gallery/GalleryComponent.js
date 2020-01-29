@@ -4,24 +4,10 @@ import { Photos } from "./Photos";
 
 class GalleryComponent extends Component {
 
-    // I Know the opacity change should be done by state change
-    // Will do this refactor later on, this is a prototype only
-
-    static getElement(id) {
-        return document.getElementById(id);
-    }
-
-    static mouseEnter(id) {
-        GalleryComponent.getElement(id).style.opacity = '1';
-    }
-
-    static mouseLeave(id) {
-        GalleryComponent.getElement(id).style.opacity = '0';
-    }
-
     render() {
+        const photos = Photos.map(function(photo, index) {
 
-        const photos = Photos.map(function(photo) {
+            const id = index;
             const style = {
                 borderRadius: "7px",
                 backgroundImage: "url(" + photo['src'] + ")",
@@ -32,14 +18,17 @@ class GalleryComponent extends Component {
                 width: "220",
                 marginTop: "10px",
                 position: "relative",
-                zIndex: "10"
+                zIndex: "10",
+                color: "white !important",
+                fontSize: "5.5em",
+                fontWeight: "bold"
             };
 
             const overflowStyle = {
                 position: "absolute",
                 width: "100%",
                 height: "100%",
-                background: "rgba(0,0,0,0.7)",
+                background: "rgba(0,0,0,0.4)",
                 zIndex: "100",
                 marginRight: "10px",
                 top: 0,
@@ -52,17 +41,21 @@ class GalleryComponent extends Component {
             };
 
             return (
-                <div className="col-md-2 picture" style={style} key={Math.random()}
-                     // onMouseOut={GalleryComponent.mouseLeave(photo['src'])}
-                     // onMouseEnter={GalleryComponent.mouseEnter(photo['src'])}
-                >
-                    <div
-                        style={overflowStyle}
-                        id={photo['src']}
-                    >
-                        <h3>{photo['src']}</h3>
-                        <hr/>
-                        <h5>Cras finibus nisi elit, id interdum purus eleifend in. Aliquam vel dictum tellus. Aliquam tincidunt posuere nibh, sed aliquet dui gravida ut.</h5>
+                <div className="text-center" key={id}>
+                    <div className="col-md-2 picture" style={style}                    >
+                        <div
+                            style={overflowStyle}
+                            id={id}
+                        >
+                            <svg viewBox="0 0 500 500">
+                                <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                                <text width="500" fill='#FFF'>
+                                    <textPath xlinkHref="#curve" textAnchor="right">
+                                        {photo['title']}
+                                    </textPath>
+                                </text>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             );
