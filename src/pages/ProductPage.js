@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import ProductsComponent from "../components/products/ProductsComponent";
+import ProductComponent from "../components/product/ProductComponent";
 
 class ProductPage extends Component {
 
     render() {
         return (
             <section id="homePage">
-                <ProductsComponent />
+                <ProductComponent />
             </section>
         )
     }

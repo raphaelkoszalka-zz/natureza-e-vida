@@ -5,8 +5,17 @@ body, html, #root {
     overflow-y: auto !important;
 }
 
-.App {
+section {
     height: 100% !important;
+    background: #efefef;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    overflow-y: auto !important;
+}
+
+.App {
+    height: 101% !important;
     overflow-y: auto !important;
 }
 

@@ -36,3 +36,14 @@
 #gallery-wrapper {
     margin-left: 25px;
 }
+
+
+.product-image {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+
+.top {
+    margin-top: 35px;
+}

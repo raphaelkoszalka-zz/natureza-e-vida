@@ -20,7 +20,9 @@ class ProductsComponent extends Component {
                                 <div className="clearfix" />
                                 <div className="text-center">
                                     <br />
-                                    <button className="btn btn-lg btn-products">Entre em Contato</button>
+                                    <a href="/contato">
+                                        <button className="btn btn-lg btn-products">Faça sua encomenda!</button>
+                                    </a>
                                     <div className="clearfix" />
                                     <br />
                                 </div>
@@ -28,6 +30,7 @@ class ProductsComponent extends Component {
                         </div>
                     </div>
                 </div>
+
             </div>
         );
     }

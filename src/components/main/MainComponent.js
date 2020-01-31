@@ -7,19 +7,18 @@ class MainComponent extends Component {
 
     render() {
         return (
-          <section id="main-component">
-            <div className="video-background" id="mainSlider">
-              <div className="video-foreground" id="aspectRatio">
-                  <iframe
-                    title="Natureza e Vida"
-                    id="videoFrame"
-                    src="https://www.youtube.com/embed/bfi3iipTQo0?controls=0&start=3&end=25&loop=50&showinfo=0&rel=0&autoplay=1&mute=1"
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe>
-              </div>
-            </div>
-          </section>
+            <section id="main-component">
+                <div className="main-text">
+                    <div className="col-xs-12 col-md-12">
+                        <h1>
+                            <strong>Nosso trabalho é trazer a vida <br/> da Natureza para você!</strong>
+                        </h1>
+                        <a href="/contato">
+                            <button className="btn btn-lg btn-main">Venha nos visitar!</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
         );
     }
 
