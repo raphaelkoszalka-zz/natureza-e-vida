@@ -46,7 +46,7 @@ header {
 }
 #headerDesktopMenu li:hover {
     cursor: pointer;
-    background: #5a967d;
+    background: #45B649;
     color: #FFF;
 }
 .active {

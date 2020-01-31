@@ -1,66 +1,46 @@
-section {
-  height: 100% !important;
-  background: #bdd5cb;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  position: relative;
-}
-
 #main-component {
-  height:  100% !important;
-}
-
-.video-background {
-    top: 0;
-    left: 0;
-    z-index: -99;
-    overflow: hidden;
-    max-height: 100%;
-}
-
-.video-foreground,
-.video-background iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110%;
-    background-color: transparent !important;
-    overflow: hidden;
-}
-
-#videoOverflow {
-    z-index: 100000 !important;
-    width: 2000px;
     height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0,0,0,0.4);
-    position: absolute;
+    min-height: 625px;
+    background: #bdd5cb;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
 }
 
-@media (max-width: 720px) {
-    .video-foreground {
-        z-index: 1 !important;
-    }
+#main-component:after {
+    content: "";
+    background-image: url('./graos-e-temperos.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 1.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
-@media (min-aspect-ratio: 16/9) {
-    .video-foreground {
-        height: 110%;
-        top: -10%;
-        z-index: -2;
-    }
+
+
+.main-text {
+    bottom: 185px;
+    position: absolute;
+    color: #FFF;
+    text-shadow: #333;
 }
-@media (min-aspect-ratio: 21/9) {
-    .video-foreground {
-        height: 150%;
-        z-index: -2;
-    }
+
+#main-component h1 {
+    font-weight: bolder;
+    margin-left: 30px;
+    font-size: 5.5em;
+    text-shadow: 2px 2px 3px #333;
 }
-@media (max-aspect-ratio: 16/9) {
-    .video-foreground {
-        width: 300%;
-        left: -625px;
-        z-index: -2;
-    }
+
+.btn-main {
+    margin-left: 30px;
+    font-size: 2em;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    background: #45B649;
+    color: #FFF;
 }

@@ -7,7 +7,7 @@ class ContactComponent extends Component {
     render() {
         return (
             <div id="contact-component">
-                <div className="col-md-6 App">
+                <div className="col-md-6">
                     <MapComponent />
                 </div>
                 <div className="col-md-6">

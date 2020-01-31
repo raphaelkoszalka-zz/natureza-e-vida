@@ -17,7 +17,7 @@ class MapComponent extends Component {
             <section id="map-component">
                 <Map
                     google={this.props.google}
-                    zoom={16}
+                    zoom={18}
                     initialCenter={{ lat: -26.911267, lng: -49.094884}}
                 >
                     <Marker position={{ lat: -26.911267, lng: -49.094884}} />

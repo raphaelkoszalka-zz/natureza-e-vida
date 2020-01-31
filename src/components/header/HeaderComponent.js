@@ -19,11 +19,13 @@ class HeaderComponent extends Component {
                     <div id="headerWrapper">
                         <div id="headerComponent">
                             <div className="col-xs-3">
-                                <img src="./logo.jpg" id="consensBrand" alt="Natureza e Vida" />
+                                <NavLink to="/home" activeClassName="active">
+                                    <img src="./logo.jpg" id="consensBrand" alt="Natureza e Vida" />
+                                </NavLink>
                             </div>
                             <div className="col-xs-9">
                                 <ul id="headerDesktopMenu" className="hidden-xs hidden-sm hidden-md">
-                                    <NavLink to="contato" activeClassName="active">
+                                    <NavLink to="/contato" activeClassName="active">
                                         <li
                                             className="buttonsList"
                                             id="contactComponentButton"
@@ -31,7 +33,7 @@ class HeaderComponent extends Component {
                                             Contato
                                         </li>
                                     </NavLink>
-                                    <NavLink to="produtos"  activeClassName="active">
+                                    <NavLink to="/produtos"  activeClassName="active">
                                         <li
                                             className="buttonsList"
                                             id="productsComponentButton"
@@ -39,7 +41,7 @@ class HeaderComponent extends Component {
                                             Produtos
                                         </li>
                                     </NavLink>
-                                    <NavLink to="sobre-nos"  activeClassName="active">
+                                    <NavLink to="/sobre-nos"  activeClassName="active">
                                         <li
                                             className="buttonsList"
                                             id="aboutComponentButton"
@@ -47,7 +49,7 @@ class HeaderComponent extends Component {
                                             A Natureza e Vida
                                         </li>
                                     </NavLink>
-                                    <NavLink to="home" activeClassName="active">
+                                    <NavLink to="/home" activeClassName="active">
                                         <li
                                             className="buttonsList"
                                             id="root"

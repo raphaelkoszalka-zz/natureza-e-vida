@@ -18,19 +18,16 @@ function App() {
                     <Route path="/home" exact={true} component={HomePage} />
                     <Route path="/sobre-nos" exact={true} component={AboutUsPage} />
                     <Route path="/produtos" exact={true} component={ProductsPage} />
-
-                    // @todo: use wildcard for products routes
-                    <Route path="/produtos/biscoitos" exact={true} component={ProductPage} />
-                    <Route path="/produtos/graos" exact={true} component={ProductPage} />
-                    <Route path="/produtos/cereais" exact={true} component={ProductPage} />
-                    <Route path="/produtos/temperos" exact={true} component={ProductPage} />
-                    <Route path="/produtos/chas" exact={true} component={ProductPage} />
-                    <Route path="/produtos/sem-gluten" exact={true} component={ProductPage} />
-                    <Route path="/produtos/paes" exact={true} component={ProductPage} />
-                    <Route path="/produtos/geleias" exact={true} component={ProductPage} />
-                    <Route path="/produtos/granel" exact={true} component={ProductPage} />
-                    <Route path="/produtos/mel" exact={true} component={ProductPage} />
-
+                    <Route path="/biscoitos" exact={true} component={ProductPage} />
+                    <Route path="/graos" exact={true} component={ProductPage} />
+                    <Route path="/cereais" exact={true} component={ProductPage} />
+                    <Route path="/temperos" exact={true} component={ProductPage} />
+                    <Route path="/chas" exact={true} component={ProductPage} />
+                    <Route path="/sem-gluten" exact={true} component={ProductPage} />
+                    <Route path="/paes" exact={true} component={ProductPage} />
+                    <Route path="/geleias" exact={true} component={ProductPage} />
+                    <Route path="/granel" exact={true} component={ProductPage} />
+                    <Route path="/mel" exact={true} component={ProductPage} />
                     <Route path="/contato" exact={true} component={ContactPage} />
                 </Switch>
             </div>

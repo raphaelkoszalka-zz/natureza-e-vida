@@ -1,11 +1,22 @@
 body, html, #root {
-  font-family: 'Maven Pro', sans-serif !important;
-  height: 100%;
-  overflow-x: hidden !important;
+    font-family: 'Maven Pro', sans-serif !important;
+    height: 100%;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+section {
+    height: 100% !important;
+    background: #efefef;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    overflow-y: auto !important;
 }
 
 .App {
-  height: 100% !important;
+    height: 101% !important;
+    overflow-y: auto !important;
 }
 
 ::-webkit-scrollbar-track {

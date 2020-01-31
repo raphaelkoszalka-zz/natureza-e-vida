@@ -27,9 +27,11 @@ class AboutComponent extends Component {
                                 <p>
                                     Estreitar os laços com entidades comprometidas com o bem estar social,
                                     buscando um mundo melhor para todos.                    </p>
-                                <h2 className="text-center">
-                                    <button className="btn btn-lg btn-about">Venha nos <strong>visitar</strong>!</button>
-                                </h2>
+                                <a href="/contato">
+                                    <h2 className="text-center">
+                                        <button className="btn btn-lg btn-about">Venha nos <strong>visitar</strong>!</button>
+                                    </h2>
+                                </a>
                                 <h2><strong>Nossa linha de produtos:</strong></h2>
                                 <div className="col-md-6">
                                     <ul>
@@ -55,7 +57,9 @@ class AboutComponent extends Component {
                                 <div className="col-md-12">
                                     <div className="clearfix" />
                                     <h2 className="text-center">
-                                        <button className="btn btn-lg btn-about">Conheça nossa linha de produtos</button>
+                                        <a href="/produtos">
+                                            <button className="btn btn-lg btn-about">Conheça nossa linha de produtos</button>
+                                        </a>
                                     </h2>
                                     <hr/>
                                 </div>
